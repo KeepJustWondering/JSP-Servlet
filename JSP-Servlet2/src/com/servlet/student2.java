@@ -33,6 +33,9 @@ public class student2 extends HttpServlet {
 		out.print("학번 : "+number+"<br>");
 		out.print("주로 사용하는 언어 : "+language+"<br>");
 		
+		getServletContext().setAttribute("food", "rice cake");
+		getServletContext().setAttribute("phone", "iPhone 11 Pro");
+		
 		
 	}
 
