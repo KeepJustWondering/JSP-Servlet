@@ -23,6 +23,13 @@ public class student2 extends HttpServlet {
 		String number = getServletConfig().getInitParameter("s_number");
 		String language = getServletConfig().getInitParameter("p_language");
 		
+		String food = getServletContext().getInitParameter("food");
+		String phone = getServletContext().getInitParameter("phone");
+		
+
+		out.print("좋아하는음식 : "+food+"<br>");
+		out.print("휴대폰 사용 기종 : "+phone+"<br>");
+		
 		out.print("학번 : "+number+"<br>");
 		out.print("주로 사용하는 언어 : "+language+"<br>");
 		

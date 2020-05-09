@@ -10,6 +10,17 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
+  
+  	<context-param>
+  		<param-name>food</param-name>
+  		<param-value>chicken</param-value>
+  	</context-param>
+
+	<context-param>
+  		<param-name>phone</param-name>
+  		<param-value>s8</param-value>
+  	</context-param>
+  
   <servlet>
   	<servlet-name>student2</servlet-name>
   	<servlet-class>com.servlet.student2</servlet-class>
