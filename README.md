@@ -4,8 +4,7 @@ JSP&amp;Servlet 학습용
 <h1>가장 최근 커밋의 결과 이미지</h1><br><br>
 
 <p>student2.java</p>
-<img src="https://user-images.githubusercontent.com/64457575/81475040-78c79a80-9244-11ea-9cd4-8f5eaab59475.PNG
-">
+<img src="https://user-images.githubusercontent.com/64457575/81475077-ba584580-9244-11ea-9501-509627fe6770.PNG">
 <br><br>
 
 
