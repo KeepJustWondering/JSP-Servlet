@@ -13,12 +13,12 @@
   
   	<context-param>
   		<param-name>food</param-name>
-  		<param-value>chicken</param-value>
+  		<param-value>치킨</param-value>
   	</context-param>
 
 	<context-param>
   		<param-name>phone</param-name>
-  		<param-value>s8</param-value>
+  		<param-value>갤럭시 s8</param-value>
   	</context-param>
   
   <servlet>
@@ -32,7 +32,7 @@
 
 	<init-param>
   		<param-name>p_language</param-name>
-  		<param-value>java</param-value>
+  		<param-value>자바</param-value>
   	</init-param>
 	  	
   </servlet>
@@ -41,4 +41,12 @@
   	<url-pattern>/ST2</url-pattern>
   </servlet-mapping>
   
+  <filter>
+	  <filter-name>tempFilter</filter-name>
+	  <filter-class>com.servlet.filter.TempFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	  <filter-name>tempFilter</filter-name>
+  	  <url-pattern>/*</url-pattern>
+  </filter-mapping>
 </web-app>
