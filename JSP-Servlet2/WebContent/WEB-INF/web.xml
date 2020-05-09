@@ -9,4 +9,25 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>student2</servlet-name>
+  	<servlet-class>com.servlet.student2</servlet-class>
+  	
+  	<init-param>
+  		<param-name>s_number</param-name>
+  		<param-value>201513371</param-value>
+  	</init-param>
+
+	<init-param>
+  		<param-name>p_language</param-name>
+  		<param-value>java</param-value>
+  	</init-param>
+	  	
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>student2</servlet-name>
+  	<url-pattern>/ST2</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
