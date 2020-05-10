@@ -13,5 +13,5 @@ JSP&amp;Servlet 학습용
 
 
 
-<p>Oracle database <book> table</p>
+<p>Oracle database "book" table</p>
 <img src="https://user-images.githubusercontent.com/64457575/81500409-01117280-930d-11ea-9895-2bf4eaf80f12.PNG">
